@@ -8,6 +8,8 @@
 #:
 #: Copyright (c) 2016 Under GPL-3.0 License.
 #:
+#: Usage: ./email-verify.sh hrshadhin.i386@gmail.com
+#:
 #:get argument
 emailAddr=$1
 #:extract host from email address
