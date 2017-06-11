@@ -8,7 +8,7 @@
 #db settings and temp variable settings
 user="root" #mysql user
 pwd="toor" #mysql password
-database="testRIng" #database to alert tables
+database="ringthedon" #database to alert tables
 
 #these two are temp variable for this script
 fileName="wantedTablesAndColumns.txt"
