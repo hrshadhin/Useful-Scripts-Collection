@@ -1,0 +1,6 @@
+#!/usr/bin/python3
+from urllib import urlopen
+raw = urlopen('http://automation.whatismyip.com/n09230945.asp')
+finaldata=str(raw.read())
+outputfile=open("/home/prism/Dropbox/programming code(own)/python/ip.adrs.check.and.write/iplist","a")
+outputfile.write(finaldata + "\n")

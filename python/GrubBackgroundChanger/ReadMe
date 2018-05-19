@@ -1,0 +1,24 @@
+1. Open Terminal
+2. Type: mkdir grubimage
+3. Type: cd grubimage
+4. Type: mkdir source
+5. Place all picture with "png" format in source folder.
+6. Now type: sudo gedit /etc/default/grub
+    a. Add the following line:
+        GRUB_BACKGROUND=/path/filename 
+    b.Example: GRUB_BACKGROUND="/home/yourusername/grubimage/1.png"
+7. Type: sudo update-grub
+8. Now place python script to startup menu !!! 
+
+
+
+  ####################################################################
+     ##############################################################
+        ########################################################
+            ################################################
+                 #####################################
+                      ###########################
+                          ##################
+                             ###########
+                                Prism
+

@@ -1,0 +1,71 @@
+# depslib dependency file v1.0
+1332229286 source:c:\documents and settings\shadhin\my documents\game-project\main.cpp
+	<iostream>
+	"gmcodes.h"
+	"mainmenu.h"
+
+1332230787 h"
+
+1332230766 c:\documents and settings\shadhin\my documents\game-project\gmcodes.h
+	"mainmenu.h"
+
+1332230736 c:\documents and settings\shadhin\my documents\game-project\mainmenu.h
+
+1332230787 source:c:\documents and settings\shadhin\my documents\game-project\mainmenu.cpp
+	<iostream>
+	"gmcodes.h"
+	"mainmenu.h"
+
+1332230810 source:c:\documents and settings\shadhin\my documents\game-project\gmcodes.cpp
+	<iostream>
+	"gmcodes.h"
+	"mainmenu.h"
+	<cstdlib>
+	<ctime>
+
+1332230810 
+
+1332236894 source:/home/shadhin/Desktop/c++ work/Game-Project/gmcodes.cpp
+	<iostream>
+	"gmcodes.h"
+	"mainmenu.h"
+	<cstdlib>
+	<ctime>
+
+1332231080 /home/shadhin/Desktop/c++ work/Game-Project/gmcodes.h
+	"mainmenu.h"
+
+1332231080 /home/shadhin/Desktop/c++ work/Game-Project/mainmenu.h
+
+1332231080 source:/home/shadhin/Desktop/c++ work/Game-Project/main.cpp
+	<iostream>
+	"gmcodes.h"
+	"mainmenu.h"
+
+1332237260 source:/home/shadhin/Desktop/c++ work/Game-Project/mainmenu.cpp
+	<iostream>
+	"gmcodes.h"
+	"mainmenu.h"
+
+1333563633 source:/home/crazicoder/Dropbox/CodeLife/CrazyCoder/CPlusPLUS/2012/March/Game-Project/gmcodes.cpp
+	<iostream>
+	"gmcodes.h"
+	"mainmenu.h"
+	<cstdlib>
+	<ctime>
+
+1332231080 /home/crazicoder/Dropbox/CodeLife/CrazyCoder/CPlusPLUS/2012/March/Game-Project/gmcodes.h
+	"mainmenu.h"
+
+1332231080 /home/crazicoder/Dropbox/CodeLife/CrazyCoder/CPlusPLUS/2012/March/Game-Project/mainmenu.h
+
+1332231080 source:/home/crazicoder/Dropbox/CodeLife/CrazyCoder/CPlusPLUS/2012/March/Game-Project/main.cpp
+	<iostream>
+	"gmcodes.h"
+	"mainmenu.h"
+
+1332237260 source:/home/crazicoder/Dropbox/CodeLife/CrazyCoder/CPlusPLUS/2012/March/Game-Project/mainmenu.cpp
+	<iostream>
+	"gmcodes.h"
+	"mainmenu.h"
+
