@@ -1,2 +1,2 @@
-![C codes here](https://github.com/hrshadhin/C-Codes)
+[C codes here](https://github.com/hrshadhin/C-Codes)
 
