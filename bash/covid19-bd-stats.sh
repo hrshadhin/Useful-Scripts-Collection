@@ -73,13 +73,11 @@ do
 #recovary and death stats
 cat /tmp/iedcr.html |  grep -o '<h3.*h3>' | sed 's/<[^>]*>//g' > /tmp/covid-15-dump.txt
 
-LAST_24_HOURS_REC=0
-TOTAL_REC=0
 LAST_24_HOURS_DEATH=0
 TOTAL_DEATH=0
 while read l1
 do
-read l2; read LAST_24_HOURS_REC; read TOTAL_REC; read LAST_24_HOURS_DEATH; read TOTAL_DEATH
+read l2; read LAST_24_HOURS_DEATH; read TOTAL_DEATH
 done  < /tmp/covid-15-dump.txt
 
 #clean up files
@@ -89,7 +87,6 @@ rm /tmp/covid-15-dump.txt
 echo -e "\033[1m-: Last 24 Hours :-\033[0m"
 echo -e "Test:\033[1m $LAST_24_HOURS_TEST\033[0m"
 echo -e "Positive:\033[0;1;41;37m $LAST_24_HOURS_POSITIVE \033[0m"
-echo -e "Recovered:\033[0;1;42;40m $LAST_24_HOURS_REC \033[0m"
 echo -e "Death:\033[0;1;41;37m $LAST_24_HOURS_DEATH \033[0m"
 
 echo -e "\n===============\n"
@@ -97,5 +94,4 @@ echo -e "\n===============\n"
 echo -e "\033[1m-: Total :-\033[0m"
 echo -e "Test:\033[1m  $TOTAL_TEST\033[0m"
 echo -e "Positive:\033[0;1;41;37m $TOTAL_POSITIVE \033[0m"
-echo -e "Recovered:\033[0;1;42;40m $TOTAL_REC \033[0m"
 echo -e "Death:\033[0;1;41;37m $TOTAL_DEATH \033[0m"
