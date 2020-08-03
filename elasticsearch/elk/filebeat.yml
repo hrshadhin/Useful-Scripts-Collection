@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+ filebeat:
+  image: elastic/filebeat:6.8.10
+  volumes:
+   - ./data:/data
+   - ./conf.d/filebeat.yml:/usr/share/filebeat/filebeat.yml
+  networks:
+   - elk_loging
+
+networks:
+ elk_loging:
+   external: true

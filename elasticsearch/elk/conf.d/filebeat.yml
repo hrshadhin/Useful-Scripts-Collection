@@ -1,0 +1,15 @@
+filebeat.inputs:
+- type: log
+  paths:
+    - "/data/logs/apache"
+  # fields:
+  #   apache: true
+  # processors:
+  # - drop_fields:
+  #     fields: ["verb","id"]
+
+# output.elasticsearch:
+#   hosts: ["elasticsearch:9200"]
+
+output.logstash:
+  hosts: ["logstash:5044"]

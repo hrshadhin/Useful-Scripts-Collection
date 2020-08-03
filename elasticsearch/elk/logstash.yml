@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+ logstash:
+  image: logstash:6.8.10
+  volumes:
+    # - ./data:/data
+    - ./conf.d/logstash-beat-apache.conf:/usr/share/logstash/pipeline/logstash.conf
+  # command: logstash -f /config-dir/logstash-beat-apache.conf
+  networks:
+   - elk_loging
+
+networks:
+ elk_loging:
+   external: true
